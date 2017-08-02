@@ -1,0 +1,40 @@
+/* CSS Document */
+
+body,div,ul,li,img{
+	margin:0;
+	padding:0;
+}
+#wrap{
+	margin-top:20px;
+	margin-right:20px;
+	margin-left:20px;
+	height:auto;
+	overflow:auto;
+	background:#eee;
+	border:1px solid #999;
+	padding:20px;
+}
+#box_left{
+	width:158px;
+	background:#fff;
+	border:1px solid #999;
+	padding:20px;
+	float:left;
+}
+#main{
+	margin-left:220px;
+	margin-right:142px;
+	background:#fff;
+	border:1px solid #999;
+	padding:20px;
+}
+#box_right{
+	float:right;
+	width:80px;
+	padding:20px;
+	border:1px solid #999;
+	background:#fff;
+}
+#box_right ul li{
+	list-style:none;
+}
